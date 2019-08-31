@@ -28,7 +28,7 @@
     <!-- 指定加载的配置文件 ，通过参数contextConfigLocation加载-->
     <init-param>
       <param-name>contextConfigLocation</param-name>
-      <param-value>classpath:springmvc.xml</param-value>
+      <param-value>classpath*:springmvc.xml</param-value>
     </init-param>
   </servlet>
 
@@ -36,4 +36,5 @@
     <servlet-name>springmvc</servlet-name>
     <url-pattern>*.do</url-pattern>
   </servlet-mapping>
+
 </web-app>
