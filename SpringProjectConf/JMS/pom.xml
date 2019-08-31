@@ -5,7 +5,7 @@
   <version>0.0.1-SNAPSHOT</version>
   
   <properties>
-  	<spring.version>4.2.4.RELEASE</spring.version>
+  	<spring.version>4.3.14.RELEASE</spring.version>
   </properties>
   
   <dependencies>
@@ -22,12 +22,12 @@
 	<dependency>
 		<groupId>junit</groupId>
 		<artifactId>junit</artifactId>
-		<version>4.9</version>
+		<version>4.12</version>
 	</dependency>
 	<dependency>
 		<groupId>org.apache.activemq</groupId>
 		<artifactId>activemq-client</artifactId>
-		<version>5.13.4</version>
+		<version>5.15.6</version>
 	 </dependency>
   </dependencies>  
 </project>
